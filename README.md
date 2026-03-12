@@ -104,7 +104,7 @@ Keys are checked for expiration during GET operations.
 Real systems combine lazy expiration with background cleanup.
 
 **3 — Reader-Writer Lock for Concurrency**
-The cache allows:
+**The cache allows:**
 
 - Multiple concurrent reads
 - Single writer access
@@ -113,8 +113,7 @@ The cache allows:
 - Simpler concurrency model
 - Writers block readers during updates
 
-**4 — Snapshot Persistence Instead of WAL
-**
+**4 — Snapshot Persistence Instead of WAL**
 Persistence uses full snapshots rather than write-ahead logging.
 
 **Tradeoff:**
